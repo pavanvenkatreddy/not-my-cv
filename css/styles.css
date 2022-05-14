@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+}
+.background{
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+}
+.box{
+  height: 45vh;
+  width: 65vh;
+  border-radius: 1.404494382022472vh;
+  position: relative;
+  margin: auto;
+  background-color: #7F8487;
+}
+.circle{
+  height: 4.213483146067416vh;
+  width: 4.213483146067416vh;
+  border-radius: 50%;
+  position: relative;
+  top: 5%;
+  left: 5%;
+  display: flex;
+  justify-content: center;
+  background-color: #413F42 ;
+}
+.top-star-frame{
+  position: relative;
+  margin: auto;
+}
+.instar{
+  position: relative;
+  margin: auto;
+}
+.heading{
+  position: relative;
+  display: inline-block;
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.content{
+  display: inline-block;
+  width: 90%;
+  height: 40%;
+  position: relative;
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin-top: 0;
+  margin-left: 5%;
+  margin-bottom: 0;
+  font-size: 17px;
+}
+.matter{
+  position: absolute;
+  display: inline-block;
+  top: 6vh;
+}
+.feedback{
+  position: absolute;
+  font-family: 'PT Sans Narrow', sans-serif;
+  width: 90%;
+  top: 60%;
+  left: 5%;
+}
+.message{
+  border-radius: 1.404494382022472vh;
+  padding: 2.247191011235955vh;
+  border: 0.2808988764044944vh solid transparent;
+  height: 3.5112359550561796vh;
+  width: 80%;
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 3.932584269662921vh;
+  font-family: Arial;
+  color: #FF7700;
+  font-size: 2.247191011235955vh;
+  background: #F2F2F2;
+  padding: 0.702247191011236vh 1.404494382022472vh 0.702247191011236vh 1.404494382022472vh;
+  padding-right: 35%;
+  padding-left: 35%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin: auto;
+}
+.btn:hover {
+  background: #E1E8EB;
+  text-decoration: none;
+}
