@@ -1,9 +1,9 @@
 body{
   margin: 0;
   text-align: center;
+  background-color: #000000;
 }
 .top{
-  background-color: #000000;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -13,93 +13,89 @@ body{
   margin: auto;
 }
 .multicolor{
-  background-image: linear-gradient(to left, #950101, #FF0000);
+  background-image: linear-gradient(to left, #950101, #2A3492);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   color: transparent;
   font-family: 'Press Start 2P', cursive;
-  font-size: 11.5vh;
+  font-size: 5.1390625rem;
   position: relative;
   margin: auto;
 
 }
 .intro-text{
-  background-image: linear-gradient(to left, #950101, #FF0000);
+  background-image: linear-gradient(to left, #950101, #2A3492);
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  display: inline-block;
   color: transparent;
+  display: inline-block;
   font-family: 'Press Start 2P', cursive;
-  font-size: 3vh;
+  font-size: 1rem;
 }
 .mid{
-  background-color: #000000;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
   height: 100vh;
+  display: block;
 }
 .giffy-image{
-  display: flex;
-  justify-content: flex-start;
-  height: 14.044943820224718vh;
-  width: 18.258426966292134vh;
+  height: 16.901408450704224vh;
+  width: 22.535211267605632vh;
   border-radius: 50%;
+
 }
 .image-image{
-  display: flex;
-  justify-content: space-around;
-  height: 14.044943820224718vh;
-  width: 18.258426966292134vh;
+  height: 16.901408450704224vh;
+  width: 22.535211267605632vh;
   border-radius: 50%;
   background-color: #e57b5e;
+
 }
-.giffy-image-head{
-  position:absolute;
-  right: 0;
-}
-.image-image-head{
-  position: absolute;
-  left: 0;
-}
-.image-image-head-1{
-  position: relative;
-  top: 16.853932584269664vh;
-}
-.image-image-head-2{
-  position: relative;
-  top: 25.280898876404493vh;
-}
-.image-image-head-3{
-  position: relative;
-  top: 33.70786516853933vh;
-}
+
 .skills{
-  position:relative;
-  display: flex;
-  justify-content: flex-end;
-  left: 88vw;
-  top: 10vh;
+  direction: ltr;
 }
-table{
-  font-family: 'Press Start 2P', cursive;
-  color: white;
-  font-size: 1.5vh;
+.giffy{
+  display: inherit;
+  position: relative;
+  height: max-content;
+
 }
 .things{
-  font-family: 'Press Start 2P', cursive;
-  color: white;
-  position: relative;
-  top: 40vh;
+  display: inherit;
+  width: 100%;
 }
 .last{
-  background-color: #180A0A;
-  color: white;
+  bottom: 1vh;
+  text-align: center;
+  margin: auto;
   font-family: 'Press Start 2P', cursive;
-  padding-bottom: 10vh;
-  position: relative;
-  top: 60%;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.data{
+  background-image: linear-gradient(to left, #2A3492, #EF4423);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+}
+.skills{
+  background-image: linear-gradient(to left, #2A3492, #EF4423);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+}
+.aa{
+  background-image: linear-gradient(to left, #2A3492, #EF4423);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
 }
 a{
-  color: white;
-  padding-right: 10vw;
+  background-image: linear-gradient(to left, #2A3492, #EF4423);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
 }
 a:hover{
   color: #B20600;
