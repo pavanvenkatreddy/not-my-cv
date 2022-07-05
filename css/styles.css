@@ -41,11 +41,20 @@ a{
   padding: 0 16px 0 16px;
 }
 .d-block{
-  height: 320px;
+  height: 24rem;
   margin: auto;
 }
 .music{
   margin: 2rem;
+}
+@media (max-width:900px) {
+  .d-block{
+    margin: auto;
+  }
+  iframe{
+    height: 12rem;
+    width: 4rem;
+  }
 }
 p{
   text-align: center;
