@@ -120,7 +120,7 @@ const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
 const formBtn = document.querySelector("[data-form-btn]");
 
-// add event to all form input field
+// add event to all form input fields
 for (let i = 0; i < formInputs.length; i++) {
   formInputs[i].addEventListener("input", function () {
 
@@ -130,9 +130,23 @@ for (let i = 0; i < formInputs.length; i++) {
     } else {
       formBtn.setAttribute("disabled", "");
     }
-
   });
 }
+
+// Add an event listener to the send button for 'mailto' functionality
+formBtn.addEventListener("click", function () {
+  const name = document.querySelector("[name='fullname']").value;
+  const email = document.querySelector("[name='email']").value;
+  const message = document.querySelector("[name='message']").value;
+
+  const subject = encodeURIComponent("Contact Form Submission from " + name);
+  const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
+
+  const mailtoLink = `mailto:pavanvenkatbhummula@gmail.com?subject=${subject}&body=${body}`;
+
+  window.location.href = mailtoLink;  // This triggers the email client
+});
+
 
 
 
